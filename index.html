@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Pattaya&display=swap" rel="stylesheet">
+	<title>Euro Nomeny</title>
+</head>
+<body>
+	<div id="header">
+		<h1>Sélection officielle pour l'EURO de Nomeny 2021 de Didier DESGROSJEAN</h1>
+	</div>
+	<div id="main" class="zoom">
+		<div id="attaquants">
+
+			<div id="romain">
+				<div id="romainPhoto">
+				<p><img alt="" src="image/portrait2.jpg" 
+            style="height:180px; width: 180px" id="changeRomain" onclick="changeImageRomain()"></p>
+            	</div>
+            	<div id="romainText">
+            		<label for="firstTrigger" class="clickable zoom">&#9917;&#9917;&#9917;</label>
+						<input id="firstTrigger" type="checkbox" style="display: none">
+							<div class="roro">
+								<h3>Karim BENZERMARKPA</h3>
+						</div>
+				</div>							
+			</div>
+
+			<div id="noemie">
+				<div id="noemiePhoto">
+				<p><img alt="" class="photo" src="image/portraitfemme.jpg" 
+            style="height:180px; width: 180px" id="changeNoemie" onclick="changeImageNoemie()"></p>
+            	</div>
+            	<div id="noemieText">
+            		<label for="secondTrigger" class="clickable">&#9917;&#9917;&#9917;</label>
+						<input id="secondTrigger" type="checkbox" style="display: none">
+							<div class="nono">
+								<h3>Non'OFFICIELLE</h3>
+						</div>
+				</div>							
+			</div>
+		</div>
+
+		<div id="milieux">
+
+			<div id="sylvain">
+				<div id="sylvainPhoto">
+				<p><img alt="" src="image/portrait2.jpg" 
+            style="height:180px; width: 180px" id="changeSylvain" onclick="changeImageSylvain()"></p>
+            	</div>
+            	<div id="sylvainText">
+            		<label for="thirdTrigger" class="clickable">&#9917;&#9917;&#9917;</label>
+						<input id="thirdTrigger" type="checkbox" style="display: none">
+							<div class="moi">
+								<h3>Antoine GRIEZMINE</h3>
+						</div>
+				</div>							
+			</div>
+
+			<div id="baptiste">
+				<div id="baptistePhoto">
+				<p><img alt="" src="image/portrait2.jpg" 
+            style="height:180px; width: 180px" id="changeBaptiste" onclick="changeImageBaptiste()"></p>
+            	</div>
+            	<div id="baptisteText">
+            		<label for="fourthTrigger" class="clickable">&#9917;&#9917;&#9917;</label>
+						<input id="fourthTrigger" type="checkbox" style="display: none">
+							<div class="bapt">
+								<h3>Kevin DE BURNE</h3>
+						</div>
+				</div>							
+			</div>
+		</div>
+
+		<div id="defenseurs">
+
+			<div id="franck">
+				<div id="franckPhoto">
+				<p><img alt="" src="image/portrait2.jpg" 
+            style="height:180px; width: 180px" id="changeFranck" onclick="changeImageFranck()"></p>
+            	</div>
+            	<div id="franckText">
+            		<label for="fifthTrigger" class="clickable">&#9917;&#9917;&#9917;</label>
+						<input id="fifthTrigger" type="checkbox" style="display: none">
+							<div class="ff">
+								<h3>Franck BECKENBOURRÉ</h3>
+						</div>
+				</div>							
+			</div>
+
+			<div id="teddy">
+				<div id="teddyPhoto">
+				<p><img alt="" src="image/portrait2.jpg" 
+            style="height:180px; width: 180px" id="changeTeddy" onclick="changeImageTeddy()"></p>
+            	</div>
+            	<div id="teddyText">
+            		<label for="sixTrigger" class="clickable">&#9917;&#9917;&#9917;</label>
+						<input id="sixTrigger" type="checkbox" style="display: none">
+							<div class="ted">
+								<h3>Mario YÉPISSE</h3>
+						</div>
+				</div>							
+			</div>
+
+			<div id="virgile">
+				<div id="virgilePhoto">
+				<p><img alt="" src="image/portrait2.jpg" 
+            style="height:180px; width: 180px" id="changeVirgile" onclick="changeImageVirgile()"></p>
+            	</div>
+            	<div id="virgileText">
+            		<label for="sevenTrigger" class="clickable">&#9917;&#9917;&#9917;</label>
+						<input id="sevenTrigger" type="checkbox" style="display: none">
+							<div class="virg">
+								<h3>Virgile Van DICK</h3>
+						</div>
+				</div>							
+			</div>
+		</div>
+
+		<div id="gardien">
+
+			<div id="charles">
+				<div id="charlesPhoto">
+				<p><img alt="" src="image/portrait2.jpg" 
+            style="height:180px; width: 180px" id="changeCharles" onclick="changeImageCharles()"></p>
+            	</div>
+            	<div id="charlesText">
+            		<label for="eightTrigger" class="clickable">&#9917;&#9917;&#9917;</label>
+						<input id="eightTrigger" type="checkbox" style="display: none">
+							<div class="teub">
+								<h3>Keylor NAVET</h3>
+						</div>
+				</div>							
+			</div>
+
+			
+		</div>		
+
+
+	</div>
+	</body>
+	</html>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="javascript">
+    function changeImageRomain() {
+
+        if (document.getElementById("changeRomain").src == "image/portrait2.jpg") 
+        {
+            document.getElementById("changeRomain").src = "image/portrait2.jpg";
+        }
+        else 
+        {
+            document.getElementById("changeRomain").src = "image/romain.jpg";
+        }
+    }
+
+    function changeImageNoemie() {
+
+        if (document.getElementById("changeNoemie").src == "image/portraitfemme.jpg") 
+        {
+            document.getElementById("changeNoemie").src = "image/portraitfemme.jpg";
+        }
+        else 
+        {
+            document.getElementById("changeNoemie").src = "image/nono.jpeg";
+        }
+    }
+
+    function changeImageSylvain() {
+
+        if (document.getElementById("changeSylvain").src == "image/portrait2.jpg") 
+        {
+            document.getElementById("changeSylvain").src = "image/portrait2.jpg";
+        }
+        else 
+        {
+            document.getElementById("changeSylvain").src = "image/moi.jpg";
+        }
+    }
+
+    function changeImageBaptiste() {
+
+        if (document.getElementById("changeBaptiste").src == "image/portrait2.jpg") 
+        {
+            document.getElementById("changeBaptiste").src = "image/portrait2.jpg";
+        }
+        else 
+        {
+            document.getElementById("changeBaptiste").src = "image/moi.jpg";
+        }
+    }
+
+    function changeImageFranck() {
+
+        if (document.getElementById("changeFranck").src == "image/portrait2.jpg") 
+        {
+            document.getElementById("changeFranck").src = "image/portrait2.jpg";
+        }
+        else 
+        {
+            document.getElementById("changeFranck").src = "image/franck.jpg";
+        }
+    }
+
+    function changeImageTeddy() {
+
+        if (document.getElementById("changeTeddy").src == "image/portrait2.jpg") 
+        {
+            document.getElementById("changeTeddy").src = "image/portrait2.jpg";
+        }
+        else 
+        {
+            document.getElementById("changeTeddy").src = "image/franck.jpg";
+        }
+    }
+
+    function changeImageVirgile() {
+
+        if (document.getElementById("changeVirgile").src == "image/portrait2.jpg") 
+        {
+            document.getElementById("changeVirgile").src = "image/portrait2.jpg";
+        }
+        else 
+        {
+            document.getElementById("changeVirgile").src = "image/virgile.jpeg";
+        }
+    }
+
+    function changeImageCharles() {
+
+        if (document.getElementById("changeCharles").src == "image/portrait2.jpg") 
+        {
+            document.getElementById("changeCharles").src = "image/portrait2.jpg";
+        }
+        else 
+        {
+            document.getElementById("changeCharles").src = "image/charles.jpg";
+        }
+    }
+
+
+
+
+</script>
+
+</body>

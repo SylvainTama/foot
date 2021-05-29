@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Pattaya&display=swap');
+
+
+#main {
+	background-image: url(image/terrain3.jpg);
+	background-size: cover;
+}
+
+#header h1 {
+	font-family: 'Great VIbes' , cursive;
+	font-size: 2.5em;
+	text-align: center;
+	background-color: yellow;
+}
+#attaquants {
+	display: flex;
+	justify-content: space-around;
+}
+
+#milieux {
+	display: flex;
+	justify-content: space-around;
+}
+
+#defenseurs {
+	display: flex;
+	justify-content: space-around;
+}
+
+#gardien {
+	display: flex;
+	justify-content: space-around;
+}
+
+.zoom img {
+	box-shadow: 10px 10px 10px black;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transform: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.zoom img:hover {
+	box-shadow: 20px 20px 20px black;
+	-webkit-transform:  scale(1.1);
+	transform:  scale(1.1);
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+	border-radius: 30%;
+}
+
+
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+#romain, #noemie, #sylvain, #baptiste, #franck, #teddy, #virgile, #charles {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#firstTrigger:checked + .roro {	
+ 	display: block;
+}
+
+#secondTrigger:checked + .nono {
+	display: block;
+}
+
+#thirdTrigger:checked + .moi {
+	display: block;
+}
+
+#fourthTrigger:checked + .bapt {
+	display: block;
+}
+
+#fifthTrigger:checked + .ff {
+	display: block;
+}
+
+#sixTrigger:checked + .ted {
+	display: block;
+}
+
+#sevenTrigger:checked + .virg {
+	display: block;
+}
+
+#eightTrigger:checked + .teub {
+	display: block;
+}
+
+.roro, .nono, .moi, .bapt, .ff, .ted, .virg, .teub {
+  	text-align: center;
+ 	display: none;
+ 	background-color: lightyellow;
+}
+
+.roro h3 {
+		font-family: 'Pattaya' , sans-serif;
+		margin: 0.1em;
+		font-size: 2em;
+		color: skyblue;
+}
+
+.nono h3 {
+	font-family: 'Pattaya' , sans-serif;
+		margin: 0.1em;
+		font-size: 2em;
+		color: skyblue;
+}
+
+.moi h3 {
+	font-family: 'Pattaya' , sans-serif;
+		margin: 0.1em;
+		font-size: 2em;
+		color: skyblue;
+}
+
+.bapt h3 {
+	font-family: 'Pattaya' , sans-serif;
+		margin: 0.1em;
+		font-size: 2em;
+		color: skyblue;
+}
+
+.ff h3 {
+	font-family: 'Pattaya' , sans-serif;
+		margin: 0.1em;
+		font-size: 2em;
+		color: skyblue;
+}
+
+.ted h3 {
+	font-family: 'Pattaya' , sans-serif;
+		margin: 0.1em;
+		font-size: 2em;
+		color: skyblue;
+}
+
+.virg h3 {
+	font-family: 'Pattaya' , sans-serif;
+		margin: 0.1em;
+		font-size: 2em;
+		color: skyblue;
+}
+
+.teub h3 {
+	font-family: 'Pattaya' , sans-serif;
+		margin: 0.1em;
+		font-size: 2em;
+		color: skyblue;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+p:hover {
+	cursor: pointer;
+}
+
+.clickable:hover {
+	cursor: pointer;
+	background-color: lightyellow;
+}
+
+
+
+
+
+/* Je crée un effet "flip card" */
+.carte {
+	
+	margin: 200px auto;
+	background-color: transparent;
+	width: 400px;
+	height: 250px;
+/* effet 3D */
+	perspective: 1000px; 
+}
+
+/* Nécessaire pour positionner le recto et le verso */
+.interieurcarte {
+
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+/* Donne un effet 3D */
+	transform-style: preserve-3d;
+}
+
+/* Tourne la carte horizontalement quand la souris survole la carte */
+.carte:hover .interieurcarte {
+
+/* rotation sur l'axe y = rotation horizontale */
+	transform: rotateY(180deg);
+}
+
+/* Positionne le recto et le verso */
+.rectocarte, .versocarte {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	border: 1px solid #f1f1f1;
+/* effet d'ombre autour de la carte */
+	box-shadow: 0px 5px 20px #999;
+}
