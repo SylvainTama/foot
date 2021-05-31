@@ -134,7 +134,6 @@ body {
 		margin: 0;
 		font-size: 2em;
 		position: relative;
-		/*text-transform: uppercase;*/
     	background: linear-gradient(90deg, #DC143C, #fff, #FBED76);
     	background-repeat: no-repeat;
     	background-size: 90%;
