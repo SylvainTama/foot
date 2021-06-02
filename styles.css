@@ -146,12 +146,17 @@ body {
 	margin: 0;
 	font-size: 1.4em;
 	border-radius: 20%;
-	background: linear-gradient(90deg, #DC143C, #fff, #FBED76);
+	background: linear-gradient(90deg, #F12A48, #fff, #FBED76);
     background-repeat: no-repeat;
     background-size: 100%;
     animation: animate 3s infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+#main strong {
+	font-size: 1.4em;
+	font-weight: bold;
 }
 
 p {
