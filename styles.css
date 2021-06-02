@@ -15,7 +15,7 @@ body {
 	background-image: url(image/terrain4.jpg);
 	background-size: cover;
 	flex: 1;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 #header h1 {
