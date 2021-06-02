@@ -61,7 +61,7 @@ body {
 #attaquants, #milieux, #defenseurs, #gardien {
 	display: flex;
 	justify-content: space-around;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 
 .zoom img {
