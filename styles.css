@@ -24,12 +24,12 @@ body {
 	margin: 0;
 	position: relative;
 	text-transform: uppercase;
-    background: linear-gradient(90deg, #DC143C, #fff, #FBED76);
-    background-repeat: no-repeat;
-    background-size: 90%;
-    animation: animate 6s infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  background: linear-gradient(90deg, #DC143C, #fff, #FBED76);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  animation: animate 6s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
      
 #header h2 {
@@ -40,13 +40,13 @@ body {
 	margin: 0;
 	position: relative;
 	text-transform: uppercase;
-    letter-spacing: 2px;
-    background: linear-gradient(90deg, #DC143C, #fff, #FBED76);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 4s infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #DC143C, #fff, #FBED76);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 @keyframes animate {
@@ -54,7 +54,7 @@ body {
       	background-position: -500%;
       }
     100% {
-      	background-position: 75%;
+      	background-position: 120%;
       }
   }
 
@@ -130,16 +130,16 @@ body {
 }
 
 #main h3 {
-		font-family: 'Pattaya' , sans-serif;
-		margin: 0;
-		font-size: 2em;
-		position: relative;
-    	background: linear-gradient(90deg, #DC143C, #fff, #FBED76);
-    	background-repeat: no-repeat;
-    	background-size: 90%;
-    	animation: animate 3s infinite;
-    	-webkit-background-clip: text;
-    	-webkit-text-fill-color: rgba(255, 255, 255, 0);
+	font-family: 'Pattaya' , sans-serif;
+	margin: 0;
+	font-size: 2em;
+	position: relative;
+  background: linear-gradient(90deg, #DC143C, #fff, #FBED76);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  animation: animate 3s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 #main h4 {
@@ -147,11 +147,11 @@ body {
 	font-size: 1.4em;
 	border-radius: 20%;
 	background: linear-gradient(90deg, #F12A48, #fff, #FBED76);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    animation: animate 3s infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation: animate 3s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 #main strong {
