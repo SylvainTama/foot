@@ -12,10 +12,10 @@ body {
 }
 
 #main {
-	background-image: url(image/terrain3.jpg);
+	background-image: url(image/terrain4.jpg);
 	background-size: cover;
-	margin-left: 5px;
 	flex: 1;
+	margin-left: 2px;
 }
 
 #header h1 {
@@ -62,7 +62,7 @@ body {
 #attaquants, #milieux, #defenseurs, #gardien {
 	display: flex;
 	justify-content: space-around;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
 }
 
 .zoom img {
